@@ -1,0 +1,78 @@
+# House rules
+
+Everything an agent needs to know that is true of **this repository only**.
+The skills in `.claude/skills/` carry the general discipline and name nothing
+specific; this file is where the specifics live. Keep it short and keep it true
+— a stale fact here is worse than a missing one, because it will be believed.
+
+Delete any heading that does not apply.
+
+## What this project is
+
+One or two sentences. What it does, for whom, and the part an agent is most
+likely to be asked to change.
+
+## Layout
+
+The directories that matter and what lives in them. Not a full tree — the five
+or six a newcomer would otherwise have to guess at.
+
+## Running it
+
+```bash
+# install dependencies
+# start it locally
+# the URL or port it comes up on
+```
+
+## Tests
+
+```bash
+# the whole suite
+# a single file or test
+# coverage, with branches
+```
+
+Current counts, if the documentation states them anywhere — and the command
+that produces them, so the next person can check rather than trust.
+
+## Lint, format, type-check
+
+```bash
+# the exact commands CI runs, in the order it runs them
+```
+
+## Branch and release
+
+- Default branch:
+- Branch naming:
+- How a change reaches production:
+- Anything that must never be edited directly (generated files, vendored code,
+  synced copies that exist byte-identically in several places):
+
+## Conventions this project has already chosen
+
+Naming, error handling, logging, layering, commit message style, documentation
+format. Where an agent should follow the existing pattern instead of its own
+judgement — and where the project knowingly departs from the general rule.
+
+## Facts that are repeated in more than one place
+
+Ports, database names, service names, scopes, counts, environment variables.
+List them here once so documentation can be checked against this file rather
+than against someone's memory. Note what enforces each one, if anything does.
+
+| Fact | Value | Also stated in |
+| --- | --- | --- |
+|  |  |  |
+
+## Known deviations
+
+Places that do not follow the rules, why, and whether they should be fixed.
+Recording them stops the next person "fixing" something deliberate, and stops a
+drift check reporting the same false positive forever.
+
+## Who to ask
+
+For decisions an agent should not make alone: schema changes, anything
+user-facing, anything irreversible, anything touching money or identity.
